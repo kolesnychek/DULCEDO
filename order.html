@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcedo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <script src="./js/order.js"></script>
+
+    <section class="hero-order" id="order-hero-id">
+        <div class="title-container">
+            <img src="/photos/Dulcedo.png"/>
+        </div>
+        <div class="main-container-order">
+            <p class="paragraph-order">Оформлення замовлення</p>
+                <div class="contact-dates">
+                <p class="dates-text">Контактні дані</p>
+                    <div class="dates-grid-item">
+                        <div class="create-date">
+                            <p class="date-text">Прізвище</p>
+                            <input type="text" class="date-input-text">
+                        </div>
+                        <div class="create-date">
+                            <p class="date-text">Пошта</p>
+                            <input type="text" class="date-input-text">
+                        </div>
+                        <div class="create-date">
+                            <p class="date-text">Ім'я</p>
+                            <input type="text" class="date-input-text">
+                        </div>
+                        <div class="create-date">
+                            <p class="date-text">Номер телефону</p>
+                            <input type="text" class="date-input-text">
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="together-cost">
+                <p class="together-text">Разом до сплати:</p>
+                <div class="together-pink-container">
+                    <!-- наповнення кошика -->
+                    <div class="cart-content"></div>
+                    <div class="total">
+                        <div class="total-title">Всього:</div>
+                        <div class="total-price">0₴</div>
+                    </div>           
+                </div>
+            </div>
+            <div class="payment-card">
+                <p class="payment-text">Реквізити для оплати:</p>
+                <div class="payment-card-pink">
+                    <p class="payment-txt-info">ФОП Милославська Альона</p>
+                    <p class="payment-txt-info">АТ КБ “ПРИВАТБАНК”</p>
+                    <p class="payment-txt-info">5457 0822 7434 5722</p>
+                </div>
+            </div>
+
+
+            <div class="delivery-methods">
+                <p class="delivery-text">Способи доставки:</p>
+                <div class="delivery-buttons">
+                    <input type="radio" id="option1" name="option" value="1">
+                    <label class="label-delivery" for="option1">Самовивіз</label>
+                    <br>
+                    <input type="radio" id="option2" name="option" value="2">
+                    <label class="label-delivery" for="option2">Таксі</label>
+                    <br>
+                    <input type="radio" id="option3" name="option" value="3">
+                    <label class="label-delivery" for="option3">Пошта</label>
+                </div>
+            </div>
+
+            <div class="your-coment">
+                <p class="coment-text">Залиш свій коментар</p>
+                <textarea type="text" class="coment-input-text"></textarea>
+            </div>
+            <div class="our-note">
+                <p class="note">*Ми зателефонуємо вам для уточнепння замовлення якнайшвидше.</p>
+                <p class="note">Дякуємо, що обираєте DULCEDO!</p>
+            </div>
+            <button class="button-confirm">Підтвердити замовлення</button>
+        
+
+</body>
+
+</html>
